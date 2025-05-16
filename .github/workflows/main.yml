@@ -37,8 +37,8 @@ jobs:
         run: |
           lftp -c "
           open -u $FTP_USER,$FTP_PASSWORD $FTP_HOST;
-          mirror -R dist /darek-project.ch;
           set xfer:log 1;
           mirror -R dist .;
+          ls;
           bye
           "
