@@ -38,5 +38,6 @@ jobs:
           lftp -c "
           open -u $FTP_USER,$FTP_PASSWORD $FTP_HOST;
           mirror -R dist /darek-project.ch;
+          ls;
           bye
           "
