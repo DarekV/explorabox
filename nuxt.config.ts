@@ -11,7 +11,10 @@ export default defineNuxtConfig({
   ],
   ssr: false,
   devtools: { enabled: true },
-  css: ['~/assets/css/main.css'],
+  css: [
+    '~/assets/css/main.css',
+    '~/assets/css/variables.css',
+  ],
   compatibilityDate: '2025-05-15',
 
   vite: {

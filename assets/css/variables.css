@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+    --font-display: "switzer", sans-serif;
+
+    --color-primary: #D5F900;
+    --color-primary-light: #EDFF82;
+    --color-primary-dark: #A2BD00;
+    --color-secondary: #EFB5E7;
+    --color-secondary-light: #FFDBFA;
+    --color-secondary-dark: #C176B7;
+    --color-tertiary: #484DAD;
+    --color-tertiary-light: #9096FF;
+    --color-background: #EDEDED;
+
+    --spacing-base: 1.5rem;
+    --spacing-medium: 1rem;
+    --spacing-small: 0.75rem;
+    --spacing-xsmall: 0.25rem;
+    --spacing-large: 2rem;
+    --spacing-xlarge: 2.5rem;
+    --spacing-title: 3rem;
+
+}
