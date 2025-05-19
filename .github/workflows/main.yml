@@ -37,6 +37,6 @@ jobs:
         run: |
           lftp -c "
           open -u $FTP_USER,$FTP_PASSWORD $FTP_HOST;
-          mirror -R dist sites/darek-project.ch/explorabox;
+          mirror -R dist sites/darek-project.ch;
           bye
           "
