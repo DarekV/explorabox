@@ -1,8 +1,6 @@
 @import "tailwindcss";
 
 @theme {
-    --font-display: "switzer", sans-serif;
-
     --color-primary: #D5F900;
     --color-primary-light: #EDFF82;
     --color-primary-dark: #A2BD00;
@@ -13,12 +11,44 @@
     --color-tertiary-light: #9096FF;
     --color-background: #EDEDED;
 
-    --spacing-base: 1.5rem;
-    --spacing-medium: 1rem;
-    --spacing-small: 0.75rem;
-    --spacing-xsmall: 0.25rem;
-    --spacing-large: 2rem;
-    --spacing-xlarge: 2.5rem;
-    --spacing-title: 3rem;
+    --font-regular: 'switzer', sans-serif;
+    --font-medium: 'switzer-medium', serif;
+    --font-bold: 'switzer-bold', serif;
 
+
+    --text-body: 1rem;
+    --text-body--font-weight: 400;
+    --text-body--line-height: 1.5;
+
+    --text-h1: 5rem;
+    --text-h1--font-weight: 700;
+    --text-h1--line-height: 1.2;
+
+    --text-h2: 3.5rem;
+    --text-h2--font-weight: 700;
+    --text-h2--line-height: 1.2;
+
+    --text-h2-mobile: 2.25rem;
+    --text-h2-mobile--font-weight: 700;
+    --text-h2-mobile--line-height: 1.2;
+
+    --text-featured: 1.25rem;
+    --text-featured--font-weight: 700;
+    --text-featured--line-height: 1.4;
+
+    --text-featured-mobile: 1.125rem;
+    --text-featured-mobile--font-weight: 700;
+    --text-featured-mobile--line-height: 1.4;
+
+    --text-small: 0.875rem;
+    --text-small--font-weight: 400;
+    --text-small--line-height: 1.5;
+
+    --text-card-title: 2rem;
+    --text-card-title--font-weight: 700;
+    --text-card-title--line-height: 1.2;
+
+    --text-card-title-mobile: 1.5rem;
+    --text-card-title-mobile--font-weight: 700;
+    --text-card-title-mobile--line-height: 1.2;
 }

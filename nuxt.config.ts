@@ -28,4 +28,13 @@ export default defineNuxtConfig({
       stylistic: true,
     },
   },
+
+  icon: {
+    customCollections: [
+      {
+        prefix: 'eb',
+        dir: './assets/icons',
+      },
+    ],
+  },
 })
