@@ -1,10 +1,9 @@
 <template>
-  <div class="font-primary text-body">
-    <header-base />
+  <div class="font-primary text-body bg-background overflow-x-hidden">
+    <header-section />
     <slot />
   </div>
 </template>
 
 <script setup lang="ts">
-import HeaderBase from '~/components/header-base.vue'
 </script>

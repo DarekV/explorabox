@@ -9,12 +9,16 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/fonts',
     'nuxt-marquee',
+    'nuxt-swiper',
   ],
   ssr: false,
   devtools: { enabled: true },
   css: [
     '~/assets/css/main.css',
     '~/assets/css/variables.css',
+    'swiper/css',
+    'swiper/css/navigation',
+    'swiper/css/pagination',
   ],
   compatibilityDate: '2025-05-15',
 
@@ -37,5 +41,17 @@ export default defineNuxtConfig({
         dir: './assets/icons',
       },
     ],
+  },
+
+  image: {
+    format: ['webp'],
+    screens: {
+      xs: 320,
+      sm: 640,
+      md: 768,
+      lg: 1024,
+      xl: 1280,
+      xxl: 1536,
+    },
   },
 })
