@@ -1,6 +1,6 @@
 <template>
-  <div class="sticky max-w-[1440px] mx-auto px-5 md:px-8 lx:px-10">
-    <div class="flex py-8 justify-between items-center">
+  <header class="sticky z-50 shadow-[0_4px_10px_0px_rgba(0,0,0,0.1)]">
+    <div class="flex py-8 justify-between items-center bg-white max-w-[1440px] mx-auto px-5 md:px-8 xl:px-10">
       <h1 class="text-4xl md:text-[2.5rem] font-bold">
         ExploraBox
       </h1>
@@ -12,9 +12,7 @@
         <span class="h-0.5 rounded bg-black w-full" />
         <span class="h-0.5 rounded bg-black w-full" />
       </button>
-      <ul
-        :class="['flex gap-6 duration-500 items-center justify-center', { 'hidden': !isMenuOpen, 'flex-col absolute top-full left-0 w-full bg-white': isMenuOpen, 'md:flex md:static md:flex-row md:w-auto md:bg-transparent': true }]"
-      >
+      <ul class="hidden md:flex gap-6 items-center justify-center">
         <li>
           <NuxtLink to="/">Contact</NuxtLink>
         </li>
@@ -40,7 +38,38 @@
         </li>
       </ul>
     </div>
-  </div>
+    <ul
+      class="flex flex-col gap-4 absolute top-full left-0 w-full bg-white px-5 py-4 transition-transform transition-opacity duration-300 transform ease-in-out md:hidden"
+      :class="{
+        'translate-y-0 pointer-events-auto': isMenuOpen,
+        '-translate-y-[150%] pointer-events-none': !isMenuOpen,
+      }"
+    >
+      <li>
+        <NuxtLink to="/">Contact</NuxtLink>
+      </li>
+      <li>
+        <NuxtLink to="/">L'équipe</NuxtLink>
+      </li>
+      <li>
+        <NuxtLink to="/">Télécharger l'app</NuxtLink>
+      </li>
+      <li>
+        <button-base color="secondary">
+          Réserver
+        </button-base>
+      </li>
+      <li>
+        <div class="flex gap-2 items-center justify-center">
+          <p>fr</p>
+          <Icon
+            name="eb:chevron"
+            size="0.5rem"
+          />
+        </div>
+      </li>
+    </ul>
+  </header>
 </template>
 
 <script setup lang="ts">
