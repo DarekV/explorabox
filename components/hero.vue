@@ -22,4 +22,14 @@
       src="/img/hero-image.png"
     />
   </div>
+  <marquee class="bg-tertiary text-white py-2 mt-16">
+    <p class="text-card-title-mobile md:text-card-title">
+      ExploraBox — 10 activités surprises · Sans organisation, juste de l’émotion · La Suisse comme vous ne l’avez
+      jamais vue
+    </p>
+    <div class="w-5 h-5 rounded-full bg-primary mx-4" />
+  </marquee>
 </template>
+
+<script setup lang="ts">
+</script>

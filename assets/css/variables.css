@@ -48,11 +48,11 @@
     --text-small--font-weight: 400;
     --text-small--line-height: 1.5;
 
-    --text-card-title: 2rem;
+    --text-card-title: 1.5rem;
     --text-card-title--font-weight: 700;
     --text-card-title--line-height: 1.2;
 
-    --text-card-title-mobile: 1.5rem;
+    --text-card-title-mobile: 1rem;
     --text-card-title-mobile--font-weight: 700;
     --text-card-title-mobile--line-height: 1.2;
 }

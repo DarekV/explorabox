@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/image',
     '@nuxt/fonts',
+    'nuxt-marquee',
   ],
   ssr: false,
   devtools: { enabled: true },
