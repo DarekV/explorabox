@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-[1440px] mt-10 mx-auto px-5 md:px-8 xl:px-10 grid-cols-12 grid gap-5 md:gap-8 xl:gap-10">
-    <div class="flex flex-col justify-end col-span-12 order-2 md:order-1 md:col-span-5">
+    <div class="flex flex-col gap-6 justify-end col-span-12 order-2 md:order-1 md:col-span-5">
       <p class="text-h1-mobile lg:text-h1">
         Voyage surprise<br>en
         <span
