@@ -1,6 +1,7 @@
 <template>
   <div class="relative">
     <NuxtImg
+      v-if="props.image"
       :src="`img/${props.image}`"
       class="w-full h-[400px] object-cover rounded-[12px]"
     />
@@ -32,7 +33,7 @@ const props = defineProps({
   },
   image: {
     type: String,
-    required: true,
+    required: false,
   },
 })
 </script>

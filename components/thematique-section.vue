@@ -1,7 +1,7 @@
 <template>
   <div class="bg-background-dark text-white">
     <div
-      class="relative max-w-[1440px] pt-32 pb-28 mx-auto px-5 md:px-8 xl:px-10 grid grid-cols-12 gap-5 md:gap-8 lg:gap-10"
+      class="relative max-w-[1440px] pt-40 pb-40 mx-auto px-5 md:px-8 xl:px-10 grid grid-cols-12 gap-5 md:gap-8 lg:gap-10"
     >
       <div class="col-span-12 flex flex-row justify-between items-center md:col-span-8 lg:col-start-5">
         <h2 class="text-h2-mobile md:text-h2">

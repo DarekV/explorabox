@@ -1,5 +1,5 @@
 <template>
-  <header class="sticky z-50 shadow-[0_4px_10px_0px_rgba(0,0,0,0.1)] bg-white">
+  <header class="fixed top-0 w-full z-50 shadow-[0_4px_10px_0px_rgba(0,0,0,0.1)] bg-white">
     <div class="flex py-8 justify-between items-center max-w-[1440px] mx-auto px-5 md:px-8 xl:px-10">
       <h1 class="text-4xl md:text-[2.5rem] font-bold">
         ExploraBox
@@ -39,7 +39,7 @@
       </ul>
     </div>
     <ul
-      class="flex flex-col gap-4 absolute top-full left-0 w-full bg-white px-5 py-4 transition-transform transition-opacity duration-300 transform ease-in-out md:hidden"
+      class="flex flex-col gap-4 absolute top-full left-0 w-full bg-white px-5 py-4 transition-transform duration-300 transform ease-in-out md:hidden"
       :class="{
         'translate-y-0 pointer-events-auto': isMenuOpen,
         '-translate-y-[150%] pointer-events-none': !isMenuOpen,

@@ -18,12 +18,12 @@
         à l’avance.
       </p>
       <div class="flex flex-row gap-6">
-        <button-base color="primary">
+        <button-component color="primary">
           Réserver
-        </button-base>
-        <button-base color="secondary">
+        </button-component>
+        <button-component color="secondary">
           Offrir
-        </button-base>
+        </button-component>
       </div>
     </div>
   </div>
