@@ -18,7 +18,7 @@
       </p>
     </div>
     <NuxtImg
-      class="col-span-12 md:col-span-7 order-1 md:order-2 md:mb-30"
+      class="w-full object-cover col-span-12 md:col-span-7 order-1 md:order-2 md:mb-30"
       src="/img/hero-image.png"
     />
   </div>
