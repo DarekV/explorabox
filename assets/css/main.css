@@ -23,38 +23,47 @@
     --text-body--line-height: 1.5;
 
     --text-h1: 5rem;
+    --text-h1--font-family: var(--font-bold);
     --text-h1--font-weight: 700;
     --text-h1--line-height: 1.2;
 
     --text-h1-mobile: 4rem;
+    --text-h1-mobile--font-family: var(--font-bold);
     --text-h1-mobile--font-weight: 700;
     --text-h1-mobile--line-height: 1.2;
 
     --text-h2: 3.5rem;
+    --text-h2--font-family: var(--font-bold);
     --text-h2--font-weight: 700;
     --text-h2--line-height: 1.2;
 
     --text-h2-mobile: 2.25rem;
+    --text-h2-mobile--font-family: var(--font-bold);
     --text-h2-mobile--font-weight: 700;
     --text-h2-mobile--line-height: 1.2;
 
     --text-featured: 1.25rem;
+    --text-featured--font-family: var(--font-bold);
     --text-featured--font-weight: 700;
     --text-featured--line-height: 1.4;
 
     --text-featured-mobile: 1.125rem;
+    --text-featured-mobile--font-family: var(--font-bold);
     --text-featured-mobile--font-weight: 700;
     --text-featured-mobile--line-height: 1.4;
 
     --text-small: 0.875rem;
+    --text-small--font-family: var(--font-light);
     --text-small--font-weight: 300;
     --text-small--line-height: 1.5;
 
     --text-card-title: 1.5rem;
+    --text-card-title--font-family: var(--font-bold);
     --text-card-title--font-weight: 700;
     --text-card-title--line-height: 1.2;
 
     --text-card-title-mobile: 1rem;
+    --text-card-title-mobile--font-family: var(--font-bold);
     --text-card-title-mobile--font-weight: 700;
     --text-card-title-mobile--line-height: 1.2;
 }
