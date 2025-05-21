@@ -1,9 +1,11 @@
 <template>
   <header class="fixed top-0 w-full z-50 shadow-[0_4px_10px_0px_rgba(0,0,0,0.1)] bg-white">
     <div class="flex py-4 justify-between items-center max-w-[1440px] mx-auto px-5 md:px-8 xl:px-10">
-      <h1 class="text-4xl md:text-[2.5rem] font-bold">
-        ExploraBox
-      </h1>
+      <NuxtLink to="/">
+        <h1 class="text-4xl md:text-[2.5rem] font-bold">
+          ExploraBox
+        </h1>
+      </NuxtLink>
       <button
         class="md:hidden flex flex-col justify-around h-8 w-8 p-1 rounded hover:bg-gray-400"
         @click="toggleMenu"
@@ -14,13 +16,21 @@
       </button>
       <ul class="hidden md:flex gap-6 items-center justify-center">
         <li>
-          <NuxtLink to="/">Contact</NuxtLink>
+          <NuxtLink to="/contact">Contact</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/">L'équipe</NuxtLink>
+          <NuxtLink to="/team">L'équipe</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/">Télécharger l'app</NuxtLink>
+          <NuxtLink
+            to="/"
+            class="flex items-center"
+          >Télécharger
+            <Icon
+              class="ml-2"
+              name="eb:external"
+            />
+          </NuxtLink>
         </li>
         <li>
           <button-component color="secondary">

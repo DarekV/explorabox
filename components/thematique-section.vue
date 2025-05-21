@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-background-dark text-white">
+  <div class="relative z-10 bg-background-dark text-white">
     <div
       class="relative max-w-[1440px] pt-40 pb-40 mx-auto px-5 md:px-8 xl:px-10 grid grid-cols-12 gap-5 md:gap-8 lg:gap-10"
     >

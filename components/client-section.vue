@@ -1,6 +1,6 @@
 <template>
-  <div class="my-40 max-w-[1440px] mx-auto px-5 md:px-8 xl:px-10 ">
-    <div class="text-center grid grid-cols-12 gap-6">
+  <div class="relative my-40 max-w-[1440px] mx-auto px-5 md:px-8 xl:px-10 ">
+    <div class="relative z-10 text-center grid grid-cols-12 gap-6">
       <h2 class="text-h2-mobile col-span-12 md:text-h2 md:col-start-4 md:col-span-6">
         ExploraBox<br>
         c’est <span
@@ -17,7 +17,7 @@
         centre.
       </p>
     </div>
-    <div class="mt-20 grid grid-cols-12 gap-6 md:gap-8 lg:gap-10 self-center">
+    <div class="relative z-10 mt-20 grid grid-cols-12 gap-6 md:gap-8 lg:gap-10 self-center">
       <card-colored-component
         class="col-span-12 md:col-span-6 lg:col-span-4"
         color="primary"
@@ -40,8 +40,14 @@
         :content="'ExploraBox sélectionne pour vous des expériences insolites et étonnantes que vous n’auriez jamais pensé rechercher. Que vous soyez amateur de frissons, de découvertes culturelles, ou de plaisirs sensoriels, chaque escapade vous réserve une surprise authentique, soigneusement choisie pour éveiller votre curiosité.'"
       />
     </div>
+    <div
+      class="text-secondary absolute w-[30%] h-auto transform rotate-180 -left-20 top-80"
+    >
+      <decoration-svg />
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
+import DecorationSvg from '~/components/decoration-svg.vue'
 </script>

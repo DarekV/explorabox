@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-white py-20">
+  <div class="relative bg-white py-20">
     <div
-      class="flex flex-col items-center max-w-[1440px] mx-auto px-5 md:px-8 xl:px-10"
+      class="relative z-10 flex flex-col items-center max-w-[1440px] mx-auto px-5 md:px-8 xl:px-10"
     >
       <h2 class="text-h2-mobile md:text-h2">
         FAQ
@@ -72,10 +72,17 @@
         </div>
       </div>
     </div>
+    <div
+      class="text-secondary absolute w-[30%] h-auto transform  right-0 top-80"
+    >
+      <decoration-svg />
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
+import DecorationSvg from '~/components/decoration-svg.vue'
+
 const selected = ref<'functioning' | 'reservation' | 'transport'>('functioning')
 
 const functionings = [

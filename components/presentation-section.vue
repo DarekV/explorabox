@@ -1,6 +1,6 @@
 <template>
   <div
-    class="max-w-[1440px] mt-10 mx-auto px-5 md:px-8 xl:px-10 grid grid-cols-12 gap-6 md:gap-8 lg:gap-10"
+    class="max-w-[1440px] mt-10 py-20 mx-auto px-5 md:px-8 xl:px-10 grid grid-cols-12 gap-6 md:gap-8 lg:gap-10"
   >
     <NuxtImg
       src="/img/presentation.png"
