@@ -16,9 +16,11 @@
         />
       </div>
       <div class="col-span-12 md:col-span-5">
-        <h2>Contacts</h2>
+        <h2 class="text-h2-mobile md:text-h2">
+          Contacts
+        </h2>
         <p>
-          <span class="text-featured-mobile md:text-featured">Adresse</span>
+          <span class="text-featured-mobile md:text-featured">Adresse</span><br>
           ExploraBox<br>
           site de blueFACTORY Fribourg Passage du Cardinal 11<br>
           1700 Fribourg<br>

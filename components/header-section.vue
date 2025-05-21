@@ -1,5 +1,5 @@
 <template>
-  <header class="fixed top-0 w-full z-50 shadow-[0_4px_10px_0px_rgba(0,0,0,0.1)] ">
+  <header class="fixed top-0 w-full z-50 shadow-[0_4px_10px_0px_rgba(0,0,0,0.1)] bg-white">
     <div
       class="relative z-[999] bg-white flex py-4 justify-between items-center max-w-[1440px] mx-auto px-5 md:px-8 xl:px-10"
     >
@@ -61,19 +61,22 @@
         <NuxtLink
           to="/contact"
           @click="toggleMenu"
-        >Contact</NuxtLink>
+        >Contact
+        </NuxtLink>
       </li>
       <li>
         <NuxtLink
           to="/team"
           @click="toggleMenu"
-        >L'équipe</NuxtLink>
+        >L'équipe
+        </NuxtLink>
       </li>
       <li>
         <NuxtLink
           to="/"
           @click="toggleMenu"
-        >Télécharger l'app</NuxtLink>
+        >Télécharger l'app
+        </NuxtLink>
       </li>
       <li>
         <button-component color="secondary">
