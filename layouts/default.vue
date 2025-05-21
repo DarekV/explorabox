@@ -1,6 +1,6 @@
 <template>
   <div class="font-primary text-body bg-background overflow-x-hidden">
-    <header-section class="sticky" />
+    <header-section />
     <slot />
   </div>
 </template>

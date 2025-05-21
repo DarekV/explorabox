@@ -11,11 +11,9 @@ export default defineNuxtConfig({
     'nuxt-marquee',
     'nuxt-swiper',
   ],
-  ssr: false,
   devtools: { enabled: true },
   css: [
     '~/assets/css/main.css',
-    '~/assets/css/variables.css',
     'swiper/css',
     'swiper/css/navigation',
     'swiper/css/pagination',

@@ -4,7 +4,7 @@
       class="absolute w-full h-full -top-6 bg-tertiary [mask:url('/img/wave.svg')_repeat-x_top] [mask-size:auto_100%] pointer-events-none"
     />
     <div
-      class="relative z-10 py-40 max-w-[1440px] mt-10 mx-auto px-5 md:px-8 xl:px-10 grid grid-cols-12 gap-6 md:gap-8 lg:gap-10"
+      class="relative z-10 py-40 max-w-[1440px] mt-10 mx-auto px-5 md:px-8 xl:px-10 grid items-center grid-cols-12 gap-6 md:gap-8 lg:gap-10"
     >
       <div class=" col-span-12 lg:col-start-2 md:col-span-6 lg:col-span-5 flex flex-col gap-6 ">
         <h2 class="text-h2-mobile md:text-h2">
@@ -26,7 +26,7 @@
       </div>
       <NuxtImg
         src="/img/price-photo.png"
-        class="w-full col-span-12 md:col-span-6 lg:col-span-5"
+        class="w-full col-span-12 md:col-span-6"
       />
     </div>
   </div>
