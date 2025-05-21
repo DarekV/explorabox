@@ -32,6 +32,26 @@ export default defineNuxtConfig({
     },
   },
 
+  fonts: {
+    defaults: {
+      weights: [300, 400, 500, 700],
+      styles: ['normal'],
+    },
+    families: [
+      {
+        name: 'Switzer',
+        provider: 'local',
+        global: true,
+        src: [
+          { src: '/fonts/switzer-light.woff2', weight: '300', style: 'normal' },
+          { src: '/fonts/switzer-regular.woff2', weight: '400', style: 'normal' },
+          { src: '/fonts/switzer-medium.woff2', weight: '500', style: 'normal' },
+          { src: '/fonts/switzer-bold.woff2', weight: '700', style: 'normal' },
+        ],
+      },
+    ],
+  },
+
   icon: {
     customCollections: [
       {
