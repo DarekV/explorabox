@@ -1,7 +1,7 @@
 <template>
   <header class="fixed top-0 w-full z-50 shadow-[0_4px_10px_0px_rgba(0,0,0,0.1)] bg-white">
     <div class="flex py-4 justify-between items-center max-w-[1440px] mx-auto px-5 md:px-8 xl:px-10">
-      <h1 class="text-4xl md:text-[2.5rem] font-bold">
+      <h1 class="text-4xl md:text-[2.5rem] font-big">
         ExploraBox
       </h1>
       <button
