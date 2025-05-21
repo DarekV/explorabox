@@ -1,5 +1,5 @@
 <template>
-  <div class="font-primary text-body bg-background overflow-x-hidden">
+  <div class="font-regular font-primary text-body bg-background overflow-x-hidden">
     <header-section />
     <slot />
   </div>
