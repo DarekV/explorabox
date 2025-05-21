@@ -1,6 +1,8 @@
 <template>
-  <header class="fixed top-0 w-full z-50 shadow-[0_4px_10px_0px_rgba(0,0,0,0.1)] bg-white">
-    <div class="flex py-4 justify-between items-center max-w-[1440px] mx-auto px-5 md:px-8 xl:px-10">
+  <header class="fixed top-0 w-full z-50 shadow-[0_4px_10px_0px_rgba(0,0,0,0.1)] ">
+    <div
+      class="relative z-[999] bg-white flex py-4 justify-between items-center max-w-[1440px] mx-auto px-5 md:px-8 xl:px-10"
+    >
       <NuxtLink to="/">
         <h1 class="text-4xl md:text-[2.5rem] font-bold">
           ExploraBox
@@ -56,13 +58,22 @@
       }"
     >
       <li>
-        <NuxtLink to="/">Contact</NuxtLink>
+        <NuxtLink
+          to="/contact"
+          @click="toggleMenu"
+        >Contact</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/">L'équipe</NuxtLink>
+        <NuxtLink
+          to="/team"
+          @click="toggleMenu"
+        >L'équipe</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/">Télécharger l'app</NuxtLink>
+        <NuxtLink
+          to="/"
+          @click="toggleMenu"
+        >Télécharger l'app</NuxtLink>
       </li>
       <li>
         <button-component color="secondary">
