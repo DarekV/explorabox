@@ -4,7 +4,7 @@
       class="absolute w-full h-full -top-6 bg-tertiary [mask:url('/img/wave.svg')_repeat-x_top] [mask-size:auto_100%] pointer-events-none"
     />
     <div
-      class="relative z-10 py-40 max-w-[1440px] mt-10 mx-auto px-5 md:px-8 xl:px-10 grid items-center grid-cols-12 gap-6 md:gap-8 lg:gap-10"
+      class="relative z-10 pt-40 pb-36 max-w-[1440px] mt-10 mx-auto px-5 md:px-8 xl:px-10 grid items-center grid-cols-12 gap-6 md:gap-8 lg:gap-10"
     >
       <div class=" col-span-12 lg:col-start-2 md:col-span-6 lg:col-span-5 flex flex-col gap-6 ">
         <h2 class="text-h2-mobile md:text-h2">
@@ -29,6 +29,12 @@
         class="w-full col-span-12 md:col-span-6"
       />
     </div>
+    <marquee-component class="bg-secondary py-2">
+      <p class="text-card-title-mobile md:text-card-title">
+        Choisissez une thématique · Laissez-vous surprendre · Vivez l’inattendu · Recommencez
+      </p>
+      <div class="w-5 h-5 rounded-full bg-white mx-4" />
+    </marquee-component>
   </div>
 </template>
 

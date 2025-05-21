@@ -8,6 +8,13 @@
 }
 
 @font-face {
+    font-family: 'switzer-light';
+    src: url('public/fonts/switzer-light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'switzer-medium';
     src: url('public/fonts/switzer-medium.woff2') format('woff2');
     font-weight: 500;
@@ -67,7 +74,7 @@
     --text-featured-mobile--line-height: 1.4;
 
     --text-small: 0.875rem;
-    --text-small--font-weight: 400;
+    --text-small--font-weight: 300;
     --text-small--line-height: 1.5;
 
     --text-card-title: 1.5rem;
