@@ -6,7 +6,7 @@
       <h2 class="text-h2-mobile md:text-h2">
         FAQ
       </h2>
-      <div class="mt-12 p-2 flex gap-4 bg-background rounded-[12px]">
+      <div class="mt-12 p-2 flex flex-wrap gap-4 bg-background rounded-[12px]">
         <div
           class="flex items-center px-5 h-11 rounded-[12px]"
           :class="selected === 'functioning' ? 'bg-secondary' : 'bg-white'"

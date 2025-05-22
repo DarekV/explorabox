@@ -6,12 +6,14 @@
         class="w-12 h-12 object-cover rounded-full"
       />
       <div />
-      <p class="text-featured-mobile md:text-featured">
-        {{ name }}
-      </p>
-      <p class="text-small">
-        {{ age }} - {{ location }}
-      </p>
+      <div class="flex flex-col">
+        <p class="text-featured-mobile md:text-featured">
+          {{ name }}
+        </p>
+        <p class="text-small">
+          {{ age }} - {{ location }}
+        </p>
+      </div>
     </div>
     <div>
       <p class="font-bold">
