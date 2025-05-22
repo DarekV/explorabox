@@ -35,9 +35,11 @@
           </NuxtLink>
         </li>
         <li>
-          <button-component color="secondary">
-            Réserver
-          </button-component>
+          <NuxtLink to="/reservation">
+            <button-component color="secondary">
+              Réserver
+            </button-component>
+          </NuxtLink>
         </li>
         <li>
           <div class="flex gap-2 items-center justify-center">
