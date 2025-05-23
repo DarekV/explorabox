@@ -25,13 +25,16 @@
         </li>
         <li>
           <NuxtLink
-            to="/"
+            to="/#faq"
+            class="flex items-center"
+          >FAQ
+          </NuxtLink>
+        </li>
+        <li>
+          <NuxtLink
+            to="/#application"
             class="flex items-center"
           >Télécharger
-            <Icon
-              class="ml-2"
-              name="eb:external"
-            />
           </NuxtLink>
         </li>
         <li>
@@ -41,13 +44,25 @@
             </button-component>
           </NuxtLink>
         </li>
-        <li>
+        <li
+          class="relative flex flex-col gap-1 overflow-hidden"
+          @click="isOpen === false ? isOpen = true : isOpen = false"
+        >
           <div class="flex gap-2 items-center justify-center">
             <p>fr</p>
             <Icon
+              class="transition-transform duration-300 transform ease-in-out"
+              :class="{ 'rotate-180': isOpen }"
               name="eb:chevron"
               size="0.5rem"
             />
+          </div>
+          <div
+            class="duration-300 transform ease-in-out"
+            :class="{ 'max-h-0': !isOpen, 'max-h-20': isOpen }"
+          >
+            <p>En</p>
+            <p>De</p>
           </div>
         </li>
       </ul>
@@ -75,9 +90,16 @@
       </li>
       <li>
         <NuxtLink
-          to="/"
-          @click="toggleMenu"
-        >Télécharger l'app
+          to="/#faq"
+          class="flex items-center"
+        >FAQ
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
+          to="/#application"
+          class="flex items-center"
+        >Télécharger
         </NuxtLink>
       </li>
       <li>
@@ -85,13 +107,25 @@
           Réserver
         </button-component>
       </li>
-      <li>
+      <li
+        class="relative flex flex-col gap-1 overflow-hidden"
+        @click="isOpen === false ? isOpen = true : isOpen = false"
+      >
         <div class="flex gap-2 items-center justify-center">
           <p>fr</p>
           <Icon
+            class="transition-transform duration-300 transform ease-in-out"
+            :class="{ 'rotate-180': isOpen }"
             name="eb:chevron"
             size="0.5rem"
           />
+        </div>
+        <div
+          class="flex flex-col items-center duration-300 transform ease-in-out"
+          :class="{ 'max-h-0': !isOpen, 'max-h-20': isOpen }"
+        >
+          <p>En</p>
+          <p>De</p>
         </div>
       </li>
     </ul>
@@ -103,6 +137,7 @@
 import ButtonComponent from '~/components/button-component.vue'
 
 const isMenuOpen = ref(false)
+const isOpen = ref(false)
 
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value

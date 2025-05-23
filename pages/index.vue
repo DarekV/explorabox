@@ -7,8 +7,8 @@
     <client-section />
     <price-section />
     <client-review-section />
-    <application-section />
-    <faq-section />
+    <application-section id="application" />
+    <faq-section id="faq" />
   </div>
 </template>
 

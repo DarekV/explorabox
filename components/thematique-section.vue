@@ -19,7 +19,7 @@
       <div class="mb-8 col-span-12 lg:col-span-4 flex flex-col gap-6 lg:gap-12">
         <div class="flex flex-col gap-4">
           <p class="text-featured-mobile md:text-featured">
-            Aventure, bien-être, artisanat, moments en famille ou explorations urbaines
+            Aventure, bien-être, artisanat, moments en famille ou explorations urbaines en Suisse !
           </p>
           <p>
             Sélectionnez ce qui vous inspire, sans rien connaître à l’avance. Chaque activité est pensée autour de votre
@@ -92,27 +92,27 @@ const slides = [
   },
   {
     image: 'urbain-photo.jpg',
-    title: 'Sensations fortes',
-    subtitle: 'Vous n’êtes pas prêt·e… et c’est parfait.',
-    content: 'Préparez-vous à repousser vos limites. Entre ciel, terre et eau, ces expériences font battre le cœur plus fort et réveillent l’instinct d’aventure. Adrénaline garantie, sans jamais perdre le contrôle.',
+    title: 'Aventures urbaines',
+    subtitle: 'Redécouvez les villes Suisses',
+    content: 'Derrière les façades familières, des univers insoupçonnés vous attendent. Parcourez les villes autrement, découvrez des lieux tenus secrets et plongez dans des ambiances qui ne se dévoilent qu’aux plus curieux·ses.',
   },
   {
     image: 'family-photo.jpg',
-    title: 'Sensations fortes',
-    subtitle: 'Vous n’êtes pas prêt·e… et c’est parfait.',
-    content: 'Préparez-vous à repousser vos limites. Entre ciel, terre et eau, ces expériences font battre le cœur plus fort et réveillent l’instinct d’aventure. Adrénaline garantie, sans jamais perdre le contrôle.',
+    title: 'Moments en famille',
+    subtitle: 'Des moments pensés pour petits et grands',
+    content: 'Des moments pensés pour petits et grands, où l’on partage le rire, l’étonnement et l’aventure. Ensemble, vivez des expériences qui soudent, amusent et laissent des souvenirs pour longtemps.',
   },
   {
     image: 'creation-photo.jpg',
-    title: 'Sensations fortes',
-    subtitle: 'Vous n’êtes pas prêt·e… et c’est parfait.',
-    content: 'Préparez-vous à repousser vos limites. Entre ciel, terre et eau, ces expériences font battre le cœur plus fort et réveillent l’instinct d’aventure. Adrénaline garantie, sans jamais perdre le contrôle.',
+    title: 'Trésors d\'artisanat',
+    subtitle: 'Au cœur de l’artisanat Suisse',
+    content: 'Passez de l’autre côté du décor et mettez les mains à la pâte. Créatif·ve, curieux·se ou simplement gourmand·e, vous explorez les coulisses de savoir-faire uniques, guidé·e par des passionné·e·s. Une immersion où l’on touche, transforme, assemble… et parfois déguste.',
   },
   {
     image: 'relax-photo.jpg',
-    title: 'Sensations fortes',
-    subtitle: 'Vous n’êtes pas prêt·e… et c’est parfait.',
-    content: 'Préparez-vous à repousser vos limites. Entre ciel, terre et eau, ces expériences font battre le cœur plus fort et réveillent l’instinct d’aventure. Adrénaline garantie, sans jamais perdre le contrôle.',
+    title: 'Escapades bien-être',
+    subtitle: 'Laissez-vous porter par la douceur',
+    content: 'Offrez-vous une parenthèse aussi agréable qu’inattendue. Qu’il s’agisse de reconnecter avec votre corps ou d’éveiller vos sens, ces escapades vous recentrent, vous apaisent et réenchantent le quotidien.',
   },
 ]
 </script>

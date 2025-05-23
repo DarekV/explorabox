@@ -30,8 +30,8 @@
       />
     </div>
     <marquee-component class="bg-secondary py-2">
-      <p class="text-card-title-mobile md:text-card-title">
-        Choisissez une thématique · Laissez-vous surprendre · Vivez l’inattendu · Recommencez
+      <p class="text-black text-card-title-mobile md:text-card-title">
+        Redécouvrez la Suisse comme vous ne l’avez jamais vue !
       </p>
       <div class="w-5 h-5 rounded-full bg-white mx-4" />
     </marquee-component>
