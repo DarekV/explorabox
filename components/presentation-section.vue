@@ -18,13 +18,20 @@
         à l’avance.
       </p>
       <div class="flex flex-row gap-6">
-        <button-component color="primary">
-          Réserver
-        </button-component>
-        <button-component color="secondary">
-          Offrir
-        </button-component>
+        <NuxtLink to="/reservation">
+          <button-component color="primary">
+            Réserver
+          </button-component>
+        </NuxtLink>
+        <NuxtLink to="/reservation">
+          <button-component color="secondary">
+            Offrir
+          </button-component>
+        </NuxtLink>
       </div>
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+</script>

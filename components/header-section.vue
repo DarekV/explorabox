@@ -45,7 +45,7 @@
           </NuxtLink>
         </li>
         <li
-          class="relative flex flex-col gap-1 overflow-hidden"
+          class="relative flex flex-col gap-1 overflow-hidden hover:cursor-pointer"
           @click="isOpen === false ? isOpen = true : isOpen = false"
         >
           <div class="flex gap-2 items-center justify-center">
@@ -103,12 +103,14 @@
         </NuxtLink>
       </li>
       <li>
-        <button-component color="secondary">
-          Réserver
-        </button-component>
+        <NuxtLink to="/reservation">
+          <button-component color="secondary">
+            Réserver
+          </button-component>
+        </NuxtLink>
       </li>
       <li
-        class="relative flex flex-col gap-1 overflow-hidden"
+        class="relative flex flex-col gap-1 overflow-hidden hover:cursor-pointer"
         @click="isOpen === false ? isOpen = true : isOpen = false"
       >
         <div class="flex gap-2 items-center justify-center">
