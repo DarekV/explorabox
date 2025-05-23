@@ -3,6 +3,7 @@
     <NuxtImg
       :src="`img/${props.image}`"
       class="h-40"
+      alt="functioning card icon"
     />
     <div class="flex flex-col items-center gap-4">
       <p class="text-featured-mobile md:text-featured">

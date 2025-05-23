@@ -4,6 +4,7 @@
       v-if="props.image"
       :src="`img/${props.image}`"
       class="w-full h-[350px] object-cover rounded-[12px]"
+      alt="card image"
     />
     <div>
       <p class="mt-4 mb-3 text-card-title-mobile md:text-card-title">

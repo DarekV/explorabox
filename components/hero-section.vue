@@ -22,6 +22,7 @@
     <NuxtImg
       class="w-full max-h-[600px] overflow-visible object-cover col-span-12 md:col-span-7 order-1 md:order-2 md:mb-30"
       src="/img/hero-image.png"
+      alt="hero image"
     />
   </div>
   <marquee-component class="bg-tertiary text-white py-2 mt-16">

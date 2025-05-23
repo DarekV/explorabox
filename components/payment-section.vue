@@ -8,6 +8,7 @@
       </h2>
       <NuxtImg
         src="/img/hero-image.png"
+        alt="hero image"
         class="w-full rounded-[50px] lg:col-start-2 col-span-12 md:col-span-6 lg:col-span-5"
       />
       <div class="col-span-12 md:col-span-6 lg:col-span-5 flex flex-col gap-6 ">

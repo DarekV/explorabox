@@ -5,6 +5,7 @@
     <NuxtImg
       class="transform translate-y-6 "
       src="/img/phone-mockup.png"
+      alt="mockup image"
     />
     <div class="flex flex-col gap-10">
       <div class="flex flex-col gap-6">

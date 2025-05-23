@@ -1,7 +1,9 @@
 <template>
   <div class="font-regular font-primary text-body bg-background overflow-x-hidden">
     <header-section />
-    <slot />
+    <main>
+      <slot />
+    </main>
     <footer-section />
   </div>
 </template>

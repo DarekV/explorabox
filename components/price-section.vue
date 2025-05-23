@@ -27,6 +27,7 @@
       <NuxtImg
         src="/img/price-photo.png"
         class="w-full col-span-12 md:col-span-6"
+        alt="image de prix"
       />
     </div>
     <marquee-component class="bg-secondary py-2">

@@ -9,6 +9,7 @@
       <NuxtImg
         src="/img/team-photo.png"
         class="w-full rounded-[50px] lg:col-start-2 col-span-12 md:col-span-6 lg:col-span-5"
+        alt="photo du bureau"
       />
       <div class="col-span-12 md:col-span-6 lg:col-span-5 flex flex-col gap-6 ">
         <p class="text-featured-mobile md:text-featured">
