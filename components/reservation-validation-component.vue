@@ -6,61 +6,66 @@
     <div class="flex flex-col">
       <div class="flex flex-col mb-10">
         <div class="w-full h-[1px] rounded-full bg-background-dark" />
-        <p class="mt-10 font-bold">
+        <p class="mt-10 mb-6 font-bold">
           Fomule
         </p>
-        <div class="mt-6 grid md:grid-cols-4">
-          <div class="col-span-1 flex flex-col gap-4">
-            <p>Thématique choisie :</p>
-            <p>Thématique choisie :</p>
-            <p>Thématique choisie :</p>
-            <p>Thématique choisie :</p>
-          </div>
-          <div class="col-span-3 flex flex-col gap-4">
-            <p>Sensations fortes</p>
-            <p>Sensations fortes</p>
-            <p>Sensations fortes</p>
-            <p>Sensations fortes</p>
-          </div>
-        </div>
+        <reservation-validation-content-component
+          name="Thématique"
+          content="Sensations fortes"
+        />
+        <reservation-validation-content-component
+          name="Première date"
+          content="25.9.2025"
+        />
+        <reservation-validation-content-component
+          name="Lieu de départ"
+          content="Fribourg"
+        />
+        <reservation-validation-content-component
+          name="Moyen de transport"
+          content="Voiture"
+        />
       </div>
       <div class="flex flex-col mb-10">
         <div class="w-full h-[1px] rounded-full bg-background-dark" />
-        <p class="mt-10 font-bold">
-          Participants
+        <p class="mt-10 mb-6 font-bold">
+          Participant
         </p>
-        <div class="mt-6 grid md:grid-cols-4">
-          <div class="col-span-1 flex flex-col gap-4">
-            <p>Nom, et prénom :</p>
-            <p>Thématique choisie :</p>
-            <p>Thématique choisie :</p>
-            <p>Thématique choisie :</p>
-            <p>Thématique choisie :</p>
-          </div>
-          <div class="col-span-3 flex flex-col gap-4">
-            <p>Sensations fortes</p>
-            <p>Sensations fortes</p>
-            <p>Sensations fortes</p>
-            <p>Sensations fortes</p>
-            <p>Sensations fortes</p>
-          </div>
-        </div>
+        <reservation-validation-content-component
+          name="Nom et prénom"
+          content="Maxime Verloren"
+        />
+        <reservation-validation-content-component
+          name="Date de naissance"
+          content="17.1.1995"
+        />
+        <reservation-validation-content-component
+          name="Email"
+          content="Max@gmail.com"
+        />
+        <reservation-validation-content-component
+          name="Adresse"
+          content="1700 Fribourg Route du belvédère 10"
+        />
+        <reservation-validation-content-component
+          name="Abonnement de transport"
+          content="Sans abonnement"
+        />
       </div>
       <div class="flex flex-col">
         <div class="w-full h-[1px] rounded-full bg-background-dark" />
         <p class="mt-10 font-bold">
           Prix
         </p>
-        <div class="mt-6 grid md:grid-cols-4">
-          <div class="col-span-1 flex flex-col gap-4">
-            <p>prix par personne :</p>
-            <p>prix total :</p>
-          </div>
-          <div class="col-span-3 flex flex-col gap-4">
-            <p>1300 chf</p>
-            <p>1300chf</p>
-          </div>
-        </div>
+        <reservation-validation-content-component
+          name="Prix par personne"
+          content="1300 chf"
+        />
+        <reservation-validation-content-component
+          name="Prix total"
+          content="1300 chf"
+        />
+
         <div class="mt-10 flex flex-col gap-2">
           <div class="flex flex-row items-center gap-2">
             <input
@@ -81,4 +86,5 @@
 </template>
 
 <script setup lang="ts">
+import ReservationValidationContentComponent from '~/components/reservation-validation-content-component.vue'
 </script>

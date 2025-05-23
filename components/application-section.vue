@@ -21,20 +21,32 @@
         </p>
       </div>
       <div class="flex flex-col md:flex-row gap-6">
-        <button-component>
-          Télécharger (IOS)
-          <Icon
-            class="ml-2"
-            name="eb:external"
-          />
-        </button-component>
-        <button-component>
-          Télécharger (Android)
-          <Icon
-            class="ml-2"
-            name="eb:external"
-          />
-        </button-component>
+        <a
+          href="https://www.apple.com/app-store/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button-component>
+            Télécharger (IOS)
+            <Icon
+              class="ml-2"
+              name="eb:external"
+            />
+          </button-component>
+        </a>
+        <a
+          href="https://play.google.com/store/apps?hl=en"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button-component>
+            Télécharger (Google Play)
+            <Icon
+              class="ml-2"
+              name="eb:external"
+            />
+          </button-component>
+        </a>
       </div>
     </div>
   </div>

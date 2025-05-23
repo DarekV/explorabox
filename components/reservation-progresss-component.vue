@@ -26,7 +26,7 @@
           :class="{ 'bg-primary': selected >= 2, 'border-5 border-primary': selected <= 2 }"
         >
           <p class="text-featured-mobile md:text-featured">
-            1
+            2
           </p>
         </div>
         <p class="hidden w-max md:block text-body text-center">
@@ -40,7 +40,7 @@
           :class="{ 'bg-primary': selected >= 3, 'border-5 border-primary': selected <= 3 }"
         >
           <p class="text-featured-mobile md:text-featured">
-            1
+            3
           </p>
         </div>
         <p class="hidden w-max md:block text-body text-center">
@@ -54,7 +54,7 @@
           :class="{ 'bg-primary': selected >= 4, 'border-5 border-primary': selected <= 4 }"
         >
           <p class="text-featured-mobile md:text-featured">
-            1
+            4
           </p>
         </div>
         <p class="hidden w-max md:block text-body text-center">

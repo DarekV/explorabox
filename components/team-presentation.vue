@@ -11,6 +11,9 @@
         class="w-full rounded-[50px] lg:col-start-2 col-span-12 md:col-span-6 lg:col-span-5"
       />
       <div class="col-span-12 md:col-span-6 lg:col-span-5 flex flex-col gap-6 ">
+        <p class="text-featured-mobile md:text-featured">
+          Qui sommes-nous ?
+        </p>
         <p>
           À l’origine d’ExploraBox, il y a Camille Morel, Jérôme Sutter et Lina Alvarez — trois ami·e·s passionné·e·s
           par
